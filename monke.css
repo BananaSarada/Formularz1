@@ -1,0 +1,56 @@
+#main
+{
+margin: 5% auto 0 auto;
+width: 70%;
+height: 90%;
+border: 4px black;
+border-radius:5px;
+background-image: linear-gradient(grey, darkblue);
+}
+#baner
+{
+font-family: Tahoma;
+color:black;
+padding-top: 2%;
+height:10%;
+font-weight: 900;
+background-color: black;
+text-align: center;
+font-size:30px;
+}
+#lewy
+{
+height:80%;
+width:30%;
+float:left;
+padding-top: 2%
+}
+#prawy
+{
+height:87%;
+width:69%
+float:left;
+border-left:1px black solid;
+}
+img
+{
+width:80%;
+height:80%;
+border-radius:5px;
+}
+table
+{
+border-spacing:15px 20px;
+margin:auto;
+text-align: center;
+}
+
+p
+{
+font-size: x-large;
+}
+li
+{
+list-style-position: inside;
+font-size:x-large;
+}

@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+	
+	h1 {
+		color:#4675d2;
+		border-style:ridge;
+		text-shadow: 2px 2px #000;
+		text-align: center;
+	}
+	input[type=submit], input[type=reset] {
+		background-color: #3266cd;
+		border: 4px solid #ccc ;
+		color: white;
+		padding: 16px 32px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 8px;
+	}
+	h2 {
+		color:#4675d2;
+		
+	}
+</style>
+</head>
+<body>
+	<h1>Ankieta Dotycząca wyboru tematu kursu</h1>
+<form action="mailto:wsip@wsip.pl?subject=temat ankiety" method="post">
+	<p><strong>Imię</strong>: <input type="text" name="Imię" size="30px" maxlength="40" style="position: absolute; left: 150px; background-color: #4da6ff; font-style: italic; color: grey" required></p>
+	<p><strong>Nazwisko</strong>: <input type="text" name="Nazwisko" size="30px" maxlength="40" style="position: absolute; left: 150px; background-color: #4da6ff; font-style: italic; color: grey" required></p>
+	<p><strong>Tytuł</strong>: <input type="text" name="Tytuł" size="30px" maxlength="40" style="position: absolute; left: 150px; background-color: #4da6ff; font-style: italic; color: grey" required></p>
+	<select name="select">
+	<option value="HTML">HTML</option>
+	<option value="CSS">CSS</option>
+	<option value="CMS">CMS</option>
+	<option value="SQL">SQL</option>
+	</select>
+	        <label><h3>Wybierz datę:</h3></label>
+            <input type="date"><br><br>
+  </div>
+<div id="Lewy">
+<p>Informacje na temat kursów</p>
+<ul>
+	<nav id="navbar">
+		<ul> 
+			 <li class="navbar_item">
+				 <a class="link" href="podstrona1.html">HTML</a>
+			 </li>
+			 <li class="navbar_item">
+			 	<a class="link" href="podstrona2.html">CSS</a>
+			 <li class="navbar_item">
+			 	<a class="link" href="podstrona3.html">CMS</a>
+			 </li>
+ 			 <li class="navbar_item">
+ 			 	<a class="link" href="podstrona4.html">SQL</a>
+ 			 </li>
+		</ul>
+	</nav>
+</li>
+</ul>
+</div>
+<p><input type="reset" value="Reset">
+<input type="submit" value="Submit"></p>
+</form>
+</body>
+</html>
